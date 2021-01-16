@@ -1,0 +1,88 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+
+background-color: black !important;
+
+}
+
+
+
+.navbar-brand {
+
+font-size: 3rem;
+
+}
+
+
+
+h1 {
+
+padding: 5px;
+margin: 15px;
+color: red;
+
+}
+
+.nav-link {
+  color: white !important
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+
+  margin-top: 25px;
+}
+
+.display-4 {
+  color: black;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 70px
+}
+.lead {
+  color: black;
+  letter-spacing: normal;
+  font-size: 25px
+
+}
+
+.jumbotron {
+  background-image: asset-url('mares2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+// body {
+//   background: #007bff;
+//   background: linear-gradient(to right, #0062E6, #33AEFF);
+// }
